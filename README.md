@@ -1,6 +1,14 @@
-# ACTER in NOBI annotation regime - version 1.6
+# NOBI annotation regime - ACTER v.1.6; RSDO5 v.1.2
 
-ACTER is a collection of manually annotated corpora for term extraction whose terms and/or named entities were labelled from the following domains: corruption, wind energy, equitation, and heart failure and are available in English, French, and Dutch. The original corpora (version 1-5) are available at [AylaRT/ACTER](https://github.com/AylaRT/ACTER). In this repo, we provide the annotated corpora in NOBI annotation format or so-called ACTER veriosn 1.6.
+ACTER is a collection of manually annotated corpora for term extraction whose terms and/or named entities were labelled from the following domains: corruption, wind energy, equitation, and heart failure and are available in English, French, and Dutch. 
+
+- The original corpora (v.1.1-v1.5) are available at [AylaRT/ACTER](https://github.com/AylaRT/ACTER).
+
+Meanwhile, RSDO5 is a manually annotated corpus for Slovenian language in the domain of biomechanics, linguistics, chemistry, or veterinary science.
+
+- The original version of RSDO (v1.0, v1.1) corpus is available at [Corpus of term-annotated texts RSDO5](https://www.clarin.si/repository/xmlui/handle/11356/1470).
+
+In this repo, we provide the annotated corpora in NOBI annotation format with additional information about term position and extracted term list per sentence for both datasets.
 
 ---
 
@@ -8,7 +16,7 @@ ACTER is a collection of manually annotated corpora for term extraction whose te
 
 - Creator: [@honghanhh](https://github.com/honghanhh)
 - Association: Jozef Stefan Institute, Slovenia and La Rochelle University, France
-- Version: 1.6
+- Version: ACTER v1.6, RSDO5 v1.2
 - Date of creation version 1.6: 10/10/2022
 - Date of last update: 27/01/2023
 - Contact: [@honghanhh](hanh.usth@gmail.com)
@@ -30,7 +38,6 @@ ACTER is a collection of manually annotated corpora for term extraction whose te
 | equi         | Equitation (dressage) |
 | htfl         | Heart failure |
 | wind         | Wind energy |
-| cor          | Parallel part of corruption corpus; completely unannotated |
 
 ## 3. Data Structure
 
@@ -110,3 +117,4 @@ We further provide the position of the terms in the sentence in the `entities` c
 
 - Rigouts Terryn, A., Hoste, V., & Lefever, E. (2022). Tagging Terms in Text: A Supervised Sequential Labelling Approach to Automatic Term Extraction. Terminology. International Journal of Theoretical and Applied Issues in Specialized Communication, 28(1). [https://doi.org/10.1075/term.21010.rig](https://doi.org/10.1075/term.21010.rig).
 - [ACTER Annotated Corpora for Term Extraction Research, version 1.5](https://github.com/AylaRT/ACTER)
+- Jemec Tomazin, M., Trojar, M., Atelšek, S., Fajfar, T., Erjavec, T., Žagar Karer, M.: Corpus of term-annotated texts RSDO5 1.1 (2021), [http://hdl.handle.net/11356/1470](http://hdl.handle.net/11356/1470), slovenian language resource repository CLARIN.SI
